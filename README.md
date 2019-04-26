@@ -53,4 +53,4 @@ C Language Dialect 设置为GUN99**
 
 ## 五
 not found image错误。 
-**将log信息中的库在Link Binary With Libraries中改为Optional**
+**将log信息中的库在Link Binary With Libraries中改为Optional。或者在Build Phases中添加Copy Files中加入该库，如果是framework包则将Destination选为frameworks**
